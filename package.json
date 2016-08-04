@@ -1,6 +1,6 @@
 {
-  "name": "chatboot",
-  "version": "0.0.0",
+  "name": "@ppoirier/chatboot",
+  "version": "0.0.1",
   "description": "Messaging App starter code library for Node/NPM",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,16 @@
     "Chatboot"
   ],
   "author": "Patrick Poirier",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patpoirier/chatboot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patpoirier/chatboot/issues"
+  },
+  "homepage": "https://github.com/patpoirier/chatboot#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.12"
+  }
 }
