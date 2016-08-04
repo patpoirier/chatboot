@@ -1,0 +1,17 @@
+{
+  "name": "chatboot",
+  "version": "0.0.0",
+  "description": "Messaging App starter code library for Node/NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Messaging",
+    "App",
+    "Chatbot",
+    "Chatboot"
+  ],
+  "author": "Patrick Poirier",
+  "license": "MIT"
+}
