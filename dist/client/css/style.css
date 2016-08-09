@@ -1,0 +1,46 @@
+.triangle-obtuse {
+  position: relative;
+  padding: 15px;
+  margin: 1em 1em 3em;
+  color: #fff;
+  background: #c81e2b;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f04349), to(#c81e2b));
+  background: -moz-linear-gradient(#f04349, #c81e2b);
+  background: -o-linear-gradient(#f04349, #c81e2b);
+  background: linear-gradient(#f04349, #c81e2b);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.triangle-obtuse:before {
+  content: "";
+  position: absolute;
+  border: 0;
+  border-style: solid;
+  border-color: transparent #c81e2b;
+  display: block;
+  width: 0;
+}
+
+.triangle-obtuse:after {
+  content: "";
+  position: absolute;
+  border: 0;
+  border-style: solid;
+  border-color: transparent #fff;
+  display: block;
+  width: 0;
+}
+
+.right:before {
+  bottom: 26px;
+  left: -27px;
+  border-width: 22px 28px 0 0;
+}
+
+.right:after {
+  bottom: 5px;
+  left: -25px;
+  border-width: 10px 25px 20px 0;
+}
